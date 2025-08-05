@@ -82,7 +82,7 @@ To register the Panther extension, add the following lines to ``phpunit.xml.dist
 
     <!-- phpunit.xml.dist -->
     <extensions>
-        <extension class="Symfony\Component\Panther\ServerExtension"/>
+        <bootstrap class="Symfony\Component\Panther\ServerExtension" />
     </extensions>
 
 Without the extension, the web server used by Panther to serve the application
