@@ -80,7 +80,7 @@ To register the Panther extension, add the following lines to ``phpunit.xml.dist
 
 .. code-block:: xml
 
-    <!-- phpunit.xml.dist -->
+    <!-- phpunit.dist.xml -->
     <extensions>
         <extension class="Symfony\Component\Panther\ServerExtension"/>
     </extensions>
